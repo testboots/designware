@@ -1,32 +1,86 @@
-.bs-docs-masthead {
-  padding-top:50px;
-  padding-bottom:40px;
-  margin-bottom:20px;
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.9.2
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+@import url(blocks.css);
+
+/*Import CSS Plugins*/
+@import url(plugins/style-switcher.css);
+
+* {
+	border-radius: 0;
 }
 
-.bs-docs-header h1, .bs-docs-header p {
-  margin-right:0px;
+body {
+ color: #333;
+ font-size: 13px;
+ line-height: 1.6;
 }
 
-.bs-docs-sidebar .nav > li > a {
-  font-size:15px;
+body.header-fixed-space {
+  padding-top: 94px;
 }
-.bs-docs-sidebar .nav .nav > li > a {
-  font-size:14px;
-}
-.back-top-top {
-  font-size:13px;
+body.header-fixed-space-v2 {
+	padding-top: 135px;
 }
 
-#content {
-  position:relative;
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
 }
-#content:after {
-  content:"";
-  position:absolute;
-  bottom:0px;
-  right:0px;
-  height:50px;
-  width:30%;
-  background:linear-gradient(135deg, transparent 50px, white 50px);
+
+p,
+li,
+li a,
+label {
+ color: #555;
+}
+
+a {
+ color: #72c02c;
+ text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+}
+
+a:focus {
+text-decoration: none;
+}
+a:hover {
+ color: #72c02c;
+ text-decoration: underline;
+}
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+	background: #fff;
+}
+
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../img/patterns/15.png) repeat;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
 }
