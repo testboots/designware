@@ -834,7 +834,8 @@ title: Blogging Like a Hacker
     <div class="container content">
       <ul class="timeline-v1">
   {% for step in site.data.arm.steps %}
-    <li>
+  {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}
+    <li{% if thecycle == '1' %} class="timeline-inverted"{% endif %}>
       <a href="{{ post.url }}"></a>
       <div class="timeline-panel">
         <div class="timeline-heading"></div>
