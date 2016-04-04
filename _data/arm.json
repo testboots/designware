@@ -2,9 +2,11 @@
   steps : [
     {name: "hello man",
      data: "tomoror",
-     date: "March 28, 2016"},
+     date: "March 28, 2016",
+     ticketnum: 5},
      {name: "hello woman",
       data: "next week",
-      date: "August 01, 2016"}
+      date: "August 01, 2016",
+      ticketnum: 10}
   ]
 }
