@@ -1,0 +1,32 @@
+{
+  interactions : [
+     {name: "ncl1 data service",
+      data:
+["sequenceDiagram",
+"MBH App->>Channel Router: Hello Bob, how are you?",
+"alt is sick",
+"		Channel Router->>MBH App: Not so good :(",
+"else is well",
+"		Channel Router->>MBH App: Feeling fresh like a daisy",
+"end",
+"opt Extra response",
+"		Channel Router->>MBH App: Thanks for asking",
+"end"],
+      date: "March 28, 2016",
+      ticketnum: 0},
+      {name: "ncl1 data service",
+       data:
+ ["sequenceDiagram",
+ "Alice->>Bob: Hello Bob, how are you?",
+ "alt is sick",
+ "		Bob->>Alice: Not so good :(",
+ "else is well",
+ "		Bob->>Alice: Feeling fresh like a daisy",
+ "end",
+ "opt Extra response",
+ "		Bob->>Alice: Thanks for asking",
+ "end"],
+       date: "March 28, 2016",
+       ticketnum: 0}
+  ]
+}

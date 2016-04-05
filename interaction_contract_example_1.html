@@ -833,18 +833,13 @@
 					<div class="col-md-9">
 						<!-- News v3 -->
 						<div class="news-v3 bg-color-white margin-bottom-30">
+							{% for interaction in site.data.interaction_contracts.interactions %}
 							<div class="mermaid">
-										sequenceDiagram
-												Alice->>Bob: Hello Bob, how are you?
-												alt is sick
-														Bob->>Alice: Not so good :(
-												else is well
-														Bob->>Alice: Feeling fresh like a daisy
-												end
-												opt Extra response
-														Bob->>Alice: Thanks for asking
-												end
+								{% for line in interaction.data %}
+								{{ line }}
+								{% endfor %}
 							</div>
+							{% endfor %}
 							<img class="img-responsive full-width" src="assets/img/main/img12.jpg" alt="">
 							<div class="news-v3-in">
 								<ul class="list-inline posted-info">
