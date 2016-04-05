@@ -5,7 +5,7 @@
 ["sequenceDiagram",
 "my App->>Channel machine: Hello Bob, how are you?",
 "alt is sick",
-"		Channel machine->>MBH App: Not so good :(",
+"		Channel machine->>my App: Not so good :(",
 "else is well",
 "		Channel machine->>my App: Feeling fresh like a daisy",
 "end",
