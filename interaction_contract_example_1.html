@@ -838,6 +838,7 @@ title: Blogging Like a Hacker
 						{% for interaction in site.data.interaction_contracts.interactions %}
 						<!-- News v3 -->
 						<div class="news-v3 bg-color-white margin-bottom-30">
+							<h2><a href="#">{{interaction.name}}</a></h2>
 							<div class="mermaid">
 								{% for line in interaction.data %}
 								{{ line }}
@@ -849,7 +850,6 @@ title: Blogging Like a Hacker
 									<li>In <a href="#">{{ interaction.area}}</a></li>
 									<li>Posted {{ interaction.date}}</li>
 								</ul>
-								<h2><a href="#">{{interaction.name}}</a></h2>
 {{interaction.description}}
 								<ul class="post-shares post-shares-lg">
 									<li>
