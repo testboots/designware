@@ -13,7 +13,10 @@
 "		Channel Router->>MBH App: Thanks for asking",
 "end"],
       date: "March 28, 2016",
-      ticketnum: 0},
+      ticketnum: 0,
+      author: "Simon W",
+      area: "Core Payment Interactions",
+      description: "When the xx interacts with the channel for core payment then blah"},
       {name: "ncl1 data service",
        data:
  ["sequenceDiagram",

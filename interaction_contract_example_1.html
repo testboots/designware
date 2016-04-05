@@ -835,29 +835,22 @@ title: Blogging Like a Hacker
 				<div class="row">
 					<!-- Blog All Posts -->
 					<div class="col-md-9">
+						{% for interaction in site.data.interaction_contracts.interactions %}
 						<!-- News v3 -->
 						<div class="news-v3 bg-color-white margin-bottom-30">
-							{% for interaction in site.data.interaction_contracts.interactions %}
 							<div class="mermaid">
 								{% for line in interaction.data %}
 								{{ line }}
 								{% endfor %}
 							</div>
-							{% endfor %}
-							<img class="img-responsive full-width" src="assets/img/main/img12.jpg" alt="">
 							<div class="news-v3-in">
 								<ul class="list-inline posted-info">
-									<li>By <a href="#">Alexander Jenni</a></li>
-									<li>In <a href="#">Design</a></li>
-									<li>Posted January 24, 2015</li>
+									<li>By <a href="#">{{ interaction.author}}</a></li>
+									<li>In <a href="#">{{ interaction.area}}</a></li>
+									<li>Posted {{ interaction.date}}</li>
 								</ul>
-								<h2><a href="#">Incredible standard post “IMAGE”</a></h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec arcu ipsum. Curabitur tincidunt nisi ex, ut eleifend turpis egestas vitae. Proin convallis et eros eget rutrum. Duis luctus lorem id mattis placerat. Etiam pharetra libero ut suscipit mollis. Morbi augue mi, maximus at lectus id, mollis ornare dui. Curabitur consequat, est non cursus suscipit, quam nulla porta enim, sed pharetra diam elit non nisi. Praesent pulvinar ante eu euismod cursus. Fusce quis est justo. Nullam id egestas diam. Etiam ac augue orci. Aliquam scelerisque convallis est sed pretium. In vel elementum lorem.</p>
-								<p>Pellentesque eleifend metus vitae commodo finibus. Proin eget mi a sem placerat facilisis. Aenean interdum aliquet sapien, non scelerisque massa vestibulum ut. Quisque mollis, ante nec volutpat dignissim, lectus libero porta magna, at volutpat massa orci a turpis. Duis tincidunt nunc magna, non semper metus tempus ut. Duis vulputate enim condimentum posuere lacinia. Ut venenatis massa ex.</p>
-								<blockquote class="hero">
-									<p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis lorem ipsum dolor sit amet, consectetur adipiscing"</em></p>
-								</blockquote>
-								<p>Sed placerat diam auctor eget. Mauris tellus eros, iaculis id leo quis, finibus aliquet ipsum. Duis volutpat lacus in purus bibendum, at sollicitudin eros malesuada. Sed nec diam a eros eleifend mattis. Phasellus in facilisis enim. Vestibulum sodales lacinia lectus, quis efficitur velit posuere sed.</p>
+								<h2><a href="#">{{interaction.name}}</a></h2>
+{{interaction.description}}
 								<ul class="post-shares post-shares-lg">
 									<li>
 										<a href="#">
@@ -881,6 +874,7 @@ title: Blogging Like a Hacker
 							</div>
 						</div>
 						<!-- End News v3 -->
+						{% endfor %}
 
 						<!-- Blog Post Author -->
 						<div class="blog-author margin-bottom-30">
