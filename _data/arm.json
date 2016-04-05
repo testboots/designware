@@ -1,9 +1,5 @@
 {
   steps : [
-    {name: "hello man",
-     data: "tomoror",
-     date: "March 28, 2016",
-     ticketnum: 0},
      {name: "ncl1 data service",
       data: "tomoror",
       date: "March 28, 2016",
