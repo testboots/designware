@@ -3,7 +3,7 @@
      {name: "ncl1 data service",
       data:
 ["sequenceDiagram",
-"my App->>Minzaw: Hello Bob, how are you?",
+"my App->>Daniel: Hello Bob, how are you?",
 "alt is sick",
 "		Channel machine->>my App: Not so good :(",
 "else is well",
