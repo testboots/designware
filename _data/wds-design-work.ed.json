@@ -1,0 +1,402 @@
+{
+  "engineered-design": {
+    "name": "UK digital Solutions Design Work and platform work",
+    "design-work": [{
+      "name": "component-buy-hold-sell",
+      "type": "design-standard",
+      "version": "0.1",
+      "description": "a list of component versions that we are standardising upon, and the status of related components",
+      "objective": "adsf",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": "http://confluence.worldpaytd.local/display/ECD/WPG-16-Coding-Standards"
+    }, {
+      "name": "java-coding-standard",
+      "type": "design-standard",
+      "version": "0.1",
+      "description": "a list of component versions that we are standardising upon, and the status of related components",
+      "objective": "adsf",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": "http://confluence.worldpaytd.local/display/ECD/WPG-16-Coding-Standards"
+    }, {
+      "name": "service contract standard",
+      "type": "design-standard",
+      "version": "0.1",
+      "description": "a list of component versions that we are standardising upon, and the status of related components",
+      "objective": "adsf",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": "http://confluence.worldpaytd.local/display/ECD/WPG-16-Coding-Standards"
+    }, {
+      "name": "service contract reference implementation",
+      "type": "design-spike",
+      "version": "0.1",
+      "description": "an annotated working example that has just simple enough domain logic but follows the design-standard.",
+      "objective": "adsf",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "pl-sql-coding-standard",
+      "type": "",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Suds Kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "data-contract-standard",
+      "type": "",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "sude kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBD product/service problem analysis Q2",
+      "type": "root-cause-analysis",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Suds Kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "YMP product/service problem analysis and improvements Q3",
+      "type": "root-cause-analysis",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBH product/service problem analysis and improvements Q3",
+      "type": "root-cause-analysis",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Suds Kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Interim Operations Intelligence Components",
+      "type": "operational-metrics",
+      "version": "0.1",
+      "description": "an initial view of some operational stats from splunk and usage service and ga",
+      "objective": "give us a realtime understanding of service status and a better understanding of ops metrics",
+      "owner": "Laxmi Reddy",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Initial Static Analysis",
+      "type": "static-analysis",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Initial Usage Metrics",
+      "type": "",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Michael de Jacquier de Rosee",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Webapp Service Security Model",
+      "type": "",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Laxmi Reddy",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Service identity and access management standard",
+      "type": "design-standard",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Laxmi Reddy",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Database Service Performance Model",
+      "type": "performance-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Suds Kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Data Services Performance Model",
+      "type": "performance-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Portal Frontend Performance Model",
+      "type": "performance-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Michael de Jacquier de Rosee",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Identity and Access Control Services Performance Model",
+      "type": "performance-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Laxmi Reddy",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Data Services Reliability Model",
+      "type": "reliability-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "Daniel Kuras",
+      "owner": "",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Database Reliability Model",
+      "type": "reliability-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Suds Kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Identity and Access Services Reliability Model",
+      "type": "reliability-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Laxmi Reddy",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Services Compliance Model",
+      "type": "compliance-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Michael de Jacquier de Rosee",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Services Scalability Model",
+      "type": "scalability-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Michael de Jacquier de Rosee",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Services Current Infrastructure Model",
+      "type": "infrastructure-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "discuss with paul how many views",
+      "owner": "Paul Medcalf",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Services Devops Model",
+      "type": "devops-model",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBD Current Service Contracts",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": "WDPB-137"
+    }, {
+      "name": "Digital Data Service Contracts",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "domain oriented and service-contract standard evolution of api",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "Digital Services Catalogue",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBH Current Service Contracts",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "YMP Current Service Contracts",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "IAM Current Service Contracts",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Laxmi Reddy",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBD Data Contract example",
+      "type": "data-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Suds Kumar",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBD Inbound Traffic Routing Contract ",
+      "type": "interaction-contract",
+      "version": "0.1",
+      "description": "show the first and second interactions to explain loadbalancing and failover",
+      "objective": "",
+      "owner": "Michael de Jacquier de Rosee",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "UI Platform Design Decisions",
+      "type": "design-decisions",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+    }, {
+      "name": "MBD Current Service Contracts",
+      "type": "service-contract",
+      "version": "0.1",
+      "description": "",
+      "objective": "",
+      "owner": "Daniel Kuras",
+      "status": "roadmap backlog tech story",
+      "ref": ""
+      }, {
+        "name": "Digital Data Processing Schedule",
+        "type": "schedule-contract",
+        "version": "0.1",
+        "description": "",
+        "objective": "",
+        "owner": "Suds kumar",
+        "status": "roadmap backlog tech story",
+        "ref": ""
+        }, {
+          "name": "Data Service SLAs",
+          "type": "service-level-agreement",
+          "version": "0.1",
+          "description": "",
+          "objective": "",
+          "owner": "Michael de Jacquier de Rosee",
+          "status": "roadmap backlog tech story",
+          "ref": ""
+          }, {
+            "name": "YMP Data Service Production Environmnet Contract",
+            "type": "environment-contract",
+            "version": "0.1",
+            "description": "define the environment decisions and dependencies needed to successfully deploy and run the service.",
+            "objective": "look at our devops automation and see if there is a model that can become a contract",
+            "owner": "Daniel Kuras",
+            "status": "roadmap backlog tech story",
+            "ref": ""
+            }, {
+              "name": "YMP Data Service Production Compute Contract",
+              "type": "compute-contract",
+              "version": "0.1",
+              "description": "",
+              "objective": "",
+              "owner": "Daniel Kuras",
+              "status": "roadmap backlog tech story",
+              "ref": ""
+              }, {
+                "name": "YMP Data Service Production Network Contract",
+                "type": "network-contract",
+                "version": "0.1",
+                "description": "",
+                "objective": "",
+                "owner": "Daniel Kuras",
+                "status": "roadmap backlog tech story",
+                "ref": ""
+                }, {
+                  "name": "MBH Behaviour Spec",
+                  "type": "rendered-component-integration-test",
+                  "version": "0.1",
+                  "description": "",
+                  "objective": "",
+                  "owner": "Suds Kumar",
+                  "status": "roadmap backlog tech story",
+                  "ref": ""
+                  }, {
+                    "name": "YMP Data Service Detailed Design",
+                    "type": "rendered-in-source-documentation",
+                    "version": "0.1",
+                    "description": "",
+                    "objective": "",
+                    "owner": "Daniel Kuras",
+                    "status": "roadmap backlog tech story",
+                    "ref": ""
+                    }, {
+                      "name": "MBH Code Asset Quality",
+                      "type": "rendered-static-profile-results",
+                      "version": "0.1",
+                      "description": "",
+                      "objective": "",
+                      "owner": "Suds Kumar",
+                      "status": "roadmap backlog tech story",
+                      "ref": ""
+                      }, {
+                        "name": "Licence Model",
+                        "type": "service-level-agreement",
+                        "version": "0.1",
+                        "description": "",
+                        "objective": "",
+                        "owner": "Daniel Kuras",
+                        "status": "roadmap backlog tech story",
+                        "ref": ""
+      }]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+	"title": "Example Schema",
+	"type": "object",
+	"properties": {
+		"firstName": {
+			"type": "string"
+		},
+		"lastName": {
+			"type": "string"
+		},
+		"age": {
+			"description": "Age in years",
+			"type": "integer",
+			"minimum": 0
+		}
+	},
+	"required": ["firstNamasdfe", "lastName"]
+
+  {
+    "$schema": "http://json-schema.org/schema#",
+  	"title": "Example Schema",
+  	"type": "object",
+  	"properties": {
+  		"firstName": {
+  			"type": "string"
+  		},
+  		"lastName": {
+  			"type": "string"
+  		},
+  		"age": {
+  			"description": "Age in years",
+  			"type": "integer",
+  			"minimum": 0
+  		},
+
+
+      "design-approach": {
+                          "description" : "define how we organise roles, regular activities and deliverables to deliver design for a particular platform",
+                          "type" : string },
+      "design-standard":  {
+                          "description" : "a standard set of decisions that need to be adhered to as part of an activity and its definition of done",
+      "design-pattern":  {
+                          "description" : "an abstract solution to a common design problem plus a concrete example that we use for knowledge sharing",
+      "design-intelligence":  {
+                          "description" : "metrics from operational, test, and design activity",
+      "design-narrative":  {
+                          "description" : "infographics and content to teach a design viewpoint to certain audience types",
+      "design-model": "logical simulation definition and analysis for a design viewpoint that is important but cannot be engineered down at the contract level",
+      "design-contract":  {
+                          "description" : "structured agreement on a design viewpoint that can be interpreted. Often drafted at a high level design early and completed at a detailed design level later",
+      "rendered-design":  {
+                          "description" : "a design item that is generated from other product and development artifacts. is often annotated over a base design narrative and uses design-intelligence."
+    },
+    "design-standard": {
+      "component-buy-hold-sell": "defines b/h/s status for a set of component types and a range of versions",
+      "design-type-standard": "defines our standard decisions for designing a particular design object type"
+    },
+    "design-pattern": "copy-across-from-pattern-library",
+    "design-intelligence": {
+      "design-approach-metrics": "velocity, cycle time, design quality, decision durability type of thing",
+      "root-cause-analysis": "typically from live service incident/problem analysis",
+      "test-results": "from functional and technical and developer tests",
+      "operational-metrics": "technology production sprc metrics, product metrics, process metrics",
+      "spike-results": "design poc narrative and intelligence to inform decisions",
+      "static-analysis": "design (high and low level) analysis from static profilers (often integrated into CI build pipeline)",
+      "usage-metrics": "metrics from user's use of the production services."
+    },
+    "design-narrative": {
+      "product-roadmap": "set of product features and tech features arranged in priority order, gradually informed by solution approach",
+      "solution-approach": "mapping of product feature(s) in the roadmap to a design approach, some overview and high level design decisions, very high level estimates",
+      "design-overview": "content explaining the high level aspects of the design in its current state",
+      "high-level-design": "key design decision explanation for a service, subsystem or part of a solution. links between design overview and design contracts and models"
+    },
+    "design-model": {
+      "security-model": "security plan vs actual",
+      "performance-model": "supply measurements and predictions, demand measurements and predictions",
+      "reliability-model": "failure point analysis, dr design",
+      "compliance-model": "mapping of design decisions to requirements",
+      "scalability-model": "points of scalability, plan vs actual",
+      "infrastructure-model": "logical spec",
+      "devops-model": "definition of the dev tools, build pipeline, release pipeline, and technical service operations tooling"
+    },
+    "design-contract": {
+      "service-contract": "defines an api contract signature, the data formats, error conditions & messages, and explains the functionality and data. swagger used for rest service contracts",
+      "data-contract": "defines the data mastery, structure, meaning, and lineage for a part of the system",
+      "interaction-contract": "defines an agreed way for system elements to interact for a particular (important) usage scenario.  Often accompanied by non functional requirements, including pci data flow, performance model metrics,",
+      "design-decision": "a design decision captured, agreed, and shared.  Key decisions often captured as part of approved Options Recommendation Document. Others captured in designware decision log.",
+      "schedule-contract": "defines the agreed timings and dependencies for executing a particular part of the service, often a batch operation schedule.",
+      "service-level-agreement": "defines a key set of non functional acceptance criteria that apply to a part of the design",
+      "environment-contract": "defines the application service and infrastructure instances and dependencies for a particular environment",
+      "compute-contract": "scripted infrastructure as code spec",
+      "network-contract": "scripted infrastructure as code spec"
+    },
+
+  	"required": ["firstName", "lastName"]
+  }
+
+}
